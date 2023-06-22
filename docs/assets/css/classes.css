@@ -1,0 +1,34 @@
+.main-bg {
+    background-image: url('../img/main-bg2.svg');
+    /*Background-size e background color usados para transformar a imagem em fundo da pagina.*/
+    background-size: cover;
+    background-position: center center;
+    color: var(--white-color);
+}
+
+.white-bg {
+    background: var(--white-color);
+    color: var(--primary-color);
+}
+
+/* para criar o header da pagina */ 
+.main-content {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 10rem var(--gap);
+}
+
+/* Para definir o tamanho minimo das viewports/seçoes da landing-page 100vh*/
+.section {
+    min-height: 100vh;
+}
+
+.menu-spacing{ /* para ficar abaixo do menu, olhamos o tamanho no padding da pagina pelo inspecionar e olhar o tamanho para calcular o seu tamanho */
+    height: 65px;
+}
+
+/*para ajustas os elementos do contato*/
+body .full-width {
+    width: 100%;
+    flex: 1 1 100%;
+}
