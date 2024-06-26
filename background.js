@@ -22,7 +22,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
 
 async function checkURLSafety(url, tabId) {
   console.log("a1q");
-  const apiKey = "AIzaSyDqHnBMZuz3pMvBDMfnnmOF4nvDIzKQEhQ";
+  const apiKey = "123";
   const response = await fetch(
     `https://safebrowsing.googleapis.com/v4/threatMatches:find?key=${apiKey}`,
     {
