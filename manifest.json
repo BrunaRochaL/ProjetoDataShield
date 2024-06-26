@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "URL Safety Checker",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "notifications",
+    "tabs",
+    "https://preveni.com.br/*",
+    "<all_urls>"
+  ],
+  "host_permissions": ["https://*/*"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
